@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="DA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="./styles/css.css">
+    <link rel="shortcut icon" href="./styles/ing/ima58ges.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <audio id="birthday-audio" loop>
+        <source src="./styles/ing/Snaptik.app_7110464465467936027.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+
+        <h1 class="birthday-text" id="birthday-message" style="display: none;">🎉 Happy Birthday! 🎂</h1>
+        <p class="message" id="birthday-wish" style="display: none;">I wish you much happiness.💝</p>
+
+        <div class="image-section" style="display: none;" id="content-section">
+            <div class="video-section">
+                <video controls autoplay muted loop class="birthday-video">
+                    <source src="./styles/ing/Snaptik.app_7110464465467936027.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <button onclick="toggleAudio(); showPopup();">ກາດຂອງຂວັນ 💌</button>
+
+            <div class="overlay" style="display: none;" onclick="closePopup()"></div>
+
+            <div class="popup" style="display: none;">
+                <p id="current-description"></p>
+                <button onclick="closePopup()">ປິດກາດ🎁</button>
+            </div>
+
+            <div class="balloons">
+                <div class="balloon" style="background-color: #ff6f61;"></div>
+                <div class="balloon" style="background-color: #f3c567;"></div>
+                <div class="balloon" style="background-color: #88c1d0;"></div>
+                <div class="balloon" style="background-color: #a084dc;"></div>
+            </div>
+        </div>
+
+
+        <div id="countdown-section">
+            <h2><span id="countdown"></span></h2>
+        </div>
+    </div>
+
+    <script src="./styles/js.js"></script>
+</body>
+
+</html>
