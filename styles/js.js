@@ -6,7 +6,7 @@ function updateCountdown() {
 
     if (remainingTime <= 0) {
         showContent();
-
+        console.log('Happy Birthday! 🎂');
         return;
     }
 
