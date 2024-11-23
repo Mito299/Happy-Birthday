@@ -36,16 +36,16 @@ function toggleAudio() {
 }
 
 const descriptions = [
-    "ວັນເກິດປີນີ້ຂອງເຈົ້າຂ້ອຍຂໍໃຫ້ເຈົ້າມີຄວາມສຸກ ❤️",
-    "ຂໍໃຫ້ເປັນລູກທີ່ດີຂອງພໍ່ແມ່ 🌟",
-    "ຂໍໃຫ້ສົມຫວັງທຸກປະການຂໍໃຫ້ປະສົບຜົນສຳເລັດໃນສິ່ງທີ່ເຮັດ 💕",
-    "ຂໍໃຫ້ເຈົ້າສຸກກາຍສະບາຍໃຈກັບວັນເກິດປີນີ້ຂອງເຈົ້າ 🌹",
-    "ຂໍໃຫ້ເຈົ້າລືມສິ່ງທີ່ບໍ່ດີໄປໃນມື້ນີ້ເພາະມື້ນີ້ເປັນມື້ໃຫມ່ຂອງເຈົ້າ💖",
-    "I wish you would stay with me forever."
+    "To the most amazing person in my life, Happy Birthday! ❤️",
+    "May all your wishes come true. 🌟",
+    "Happy birthday. I wish you all the best. 💕",
+    "Wishing you all the joy, love, and happiness in the world on your birthday. 🌹",
+    "You woke up a year older, and somehow even hotter. 😜",
+    "I wish you would stay with me forever. 🎁"
 ];
 
 let currentIndex = 0;
-const delay = 4500;
+const delay = 3500;
 
 function showPopup() {
     document.querySelector('.popup').style.display = 'block';
